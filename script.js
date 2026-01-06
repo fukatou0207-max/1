@@ -1,8 +1,4 @@
-// ページが読み込まれたら動くよ
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("JSがちゃんと読み込まれたよ！");
-
-  // h1 の文字色を変えてみる
+// h1 の文字色を変えてみる
   const title = document.querySelector("h1");
   if (title) {
     title.style.color = "hotpink";
